@@ -25,15 +25,15 @@ h1{
 }
 
 #the-booleaner{
-    color: rgba(0, 255, 255, 0.507);
+    color: rgba(0, 206, 206, 0.911);
 }
 
 .subtitle{
-    color: rgba(128, 128, 128, 0.705);
+    color: rgba(128, 128, 128, 0.966);
 }
 
 .immagini-titolo{
-    padding: 10px;
+    padding-top: 10px;
 }
 
 .subtitle-img{
@@ -41,21 +41,35 @@ h1{
     padding-bottom: 15px;
 }
 
-table, th, td{
-    border: 1px;
-}
-
-th{
-    text-align: left;
-}
-
-td{
-    text-align: left;
-   height: 50px; 
-}
-
 ul{
     padding-left: 20px;
     list-style-type: circle;
     padding-bottom: 20px;
 }
+
+#tabella {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#tabella td, th{
+    text-align: left;
+}
+
+#tabella td{
+    height: 50px;
+}
+
+#tabella th{
+    background-color: rgba(0, 78, 114, 0.774);
+    color: white;
+}
+
+.color-row{
+    background-color: rgba(0, 255, 255, 0.377);
+}
+
+.last-col{
+    width:50%
+}
+
