@@ -27,3 +27,11 @@ h1{
 .subtitle{
     color: rgba(128, 128, 128, 0.705);
 }
+
+.immagini-titolo{
+    padding: 10px;
+}
+
+.subtitle-img{
+    font-size: 13px;
+}
