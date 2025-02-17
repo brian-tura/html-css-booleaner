@@ -73,3 +73,30 @@ ul{
     width:50%
 }
 
+#img1{
+    background-image: url("../img/monitor.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+.testo-img-footer{
+    color: white;
+    font-size: 150%;
+}
+
+#img2{
+    background-image: url("../img/graph.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    margin: 5px;
+}
+
+#titolo-footer{
+    color: rgba(41, 41, 41, 0.788);
+    font-size: 20px;
+
+}
